@@ -1,0 +1,20 @@
+<table class="table table-hover">  
+
+    <th>All Details</th> 
+  
+      <tr>
+          <td>Name</td>
+          <td>Email</td>
+          <td>Bio</td>
+          <td>Img</td>
+
+      </tr> 
+      <tr *ngFor="let prodis of userlist">
+        <td>{{prodis.name}}</td>
+        <td>{{prodis.email}}</td>
+        <td>{{prodis.bio}}</td>
+        <td>{{prodis.img}}</td>
+    </tr>
+  </table>
+  
+  
